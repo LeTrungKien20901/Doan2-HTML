@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dautien{
+    height: 25px;
+}
+h1 {
+    color: rgb(26, 168, 235);
+}
+
+#menu {
+    height: max-content;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgba(51, 45, 45, 0.5);
+    position: relative;
+    box-shadow:0px 50px 50px 50px rgba(51, 45, 45, 0.5);
+    z-index: 2; 
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+#menu .logo{
+    width: 90px;
+}
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+#menu a:hover{
+    color: wheat;
+    border-bottom: 1px solid wheat;
+    padding-bottom: 2px;
+}
+#menu ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu>ul>li {
+    display: inline-block;
+    width: 180px;
+    position: relative;
+    line-height: 35px;
+    text-align: center;
+}
+
+.ltk {
+    position: absolute;
+    display: none;
+}
+
+.ltk li {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 35px;
+    width: 180px;
+    text-align: left;
+    color: white;
+    /* background-color: rgb(12, 11, 11, 0.5); */
+    /* flex-direction: column; mỗi một cột sẽ hiển thị trên 1 dòng */
+}
+
+.ltk>li {
+    position: relative;
+}
+
+.ltk li:hover .ltk1 {
+    display: block;
+}
+
+.ltk1 {
+    display: none;
+    position: absolute;
+    right: -180px;
+    top: 0px;
+}
+
+.ltk1 li {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 35px;
+    width: 180px;
+    text-align: left;
+}
+
+/* #menu ul li:hover {
+    background-color: yellowgreen;
+} */
+
+#menu ul li:hover .ltk {
+    display: block;
+    position: absolute;
+    left: -32px;
+    
+}
+#menu .timkiem{
+    width: 200px;
+    line-height: 30px;
+    outline: none;
+}
+#menu .giohang1 {
+    font-size: 60px;
+    color: white;
+}
+/* các loại màn hình */
+ /* For mobile phones: */
+ [class*="col-"] {
+    width: 100%;
+    float: left;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }  

@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* giỏ hàng */
+.formcart{
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+.tongtien{
+    font-size: 30px;
+}
+.content-right button{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid gray;
+    color: white;
+    font-size: 17px;
+    border: none;   
+}
+.return{
+    background-color: green;
+}
+.thanhtoan{
+    background-color: red;
+}
+.return,.thanhtoan{
+    opacity: 0.8;
+}
+.return:hover,.thanhtoan:hover{
+    opacity: 1;
+}
+
+/* xóa sản phẩm */
+.xoasp{
+    width: max-content;
+    color:white;
+    cursor: pointer;
+    background-color: red;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+/* sản phẩm */
+ table{
+    width:100%;
+    text-align: center;
+ }
+.imgsp{
+    width: 110px;
+    height: 140px;
+    margin: 5px;
+}
+.tanggiam{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(54, 224, 97); 
+    border: none;
+
+}
+.soluong{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}

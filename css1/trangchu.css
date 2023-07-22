@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* slide */
+.slide{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+}
+.slide-img{
+    width: 100%;
+    height: 100%;
+}
+/* chế độ màn hình khi ở 1280px */
+@media screen and (max-width:1280px) {
+    .slide{
+        height: 600px;
+    }
+    
+}
+/* chế độ màn hình khi ở 768px */
+@media screen and (max-width:768px) {
+    .slide{
+        height: 400px;
+    }
+    
+}
+.welcome{
+    color: rgb(178, 226, 47);
+    font-size: 100px;
+    opacity: 0.8;
+}
+.coin-l{
+    font-size: 70px;
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 3;
+}
+.coin-r{
+    font-size: 70px;
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 3;
+}
+.coin-l:hover{
+    left: 25px;
+}
+.coin-r:hover{
+    right: 25px;
+}
+/* content-bottom */
+.mid{
+    color: rgb(62, 62, 218);
+}
+.mid h2{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.spbanchay{
+    padding: 10px;
+}
+.spbanchay img{
+    width: 100%;
+    height: 400px;
+
+}
+.spbanchay img:hover{
+    transition: all 0.4s;
+    transform: scale(1.05);
+
+}
+.spbanchay1{
+    border: 1px solid;
+    padding-bottom: 10px;
+    overflow: hidden;
+     /* overflow: hidden; là nếu quá giới hạn sẽ bị ẩn đi */
+}
+.spbanchay1 a{
+    text-decoration: none;
+    color: black;
+}
+.noidungsp{
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid;
+}
+.macchat{
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+}
+.slide1{
+    width: 100%;
+    height: 800px;
+}
+.slide1 img{
+    width: 100%;
+    height: 100%;
+}
+.htch{
+    width: 90%;
+    height: 500px;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.htch span{
+    margin: auto;
+    border-bottom: 1px solid;
+}
+.htch a{
+    text-decoration: none;
+    color: white;
+}
+.htch a:hover{
+    color: white;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+#quans{
+    margin-top: 250px;
+}
+.quannam{
+    padding: 10px;
+}
+.quannam1{
+    border: 1px solid;
+    padding-bottom: 10px;
+    overflow: hidden;
+     /* overflow: hidden; là nếu quá giới hạn sẽ bị ẩn đi */
+}
+.quannam img{
+    width: 100%;
+    height: 400px;
+
+}
+.quannam img:hover{
+    transition: all 0.4s;
+    transform: scale(1.05);
+
+}
+.noidungquan{
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid;
+}
+.quannam1 a{
+    text-decoration: none;
+    color: black;
+}

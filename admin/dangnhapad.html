@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập Admin</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cssad/dangnhapad.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.js">
+    <script src="../jquery/jquery.min.js"></script>
+</head>
+<body>
+    <!-- đăng nhập admin -->
+    <section>
+        <form action="danhsachsanpham.html" method="POST">
+            <div class="dangnhap">
+                <img src="image/logo.png" alt="Lỗi ảnh">
+                <hr>
+                <marquee behavior="alternate" direction="right" scrollamount="10">
+                    <h2>Đăng nhập</h2>
+                </marquee>
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <button type="submit" onclick=" return validateForm()">Đăng nhập</button>
+            </div>
+        </form>
+        <script src="dangnhapad.js"></script>
+    </section>
+</body>
+</html>
+
+
+

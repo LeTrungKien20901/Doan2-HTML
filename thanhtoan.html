@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/thanhtoan.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/footer.css">
+    <link rel="stylesheet" href="css1/menu.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <section>
+        <div>
+            <div id="menu">
+                <div class="dautien">
+                    <a href="tel:0347239763" title="Hotline">&#9743; 0347239763</a>
+                    <a href="mailto:kienad2001@gmail.com" title="Hotline">&#9993; Hỗ trợ</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="trangchu.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="#">BỘ SƯU TẬP</a>
+                        <ul class="ltk">
+                            <li>
+                                <a href="ao.html">Áo</a>
+                            </li>
+                            <li>
+                                <a href="#">Quần</a>
+                                <ul class="ltk1">
+                                    <li>
+                                        <a href="quanjeans.html">Quần Jeans</a>
+                                    </li>
+                                    <li>
+                                        <a href="quanshort.html"> Quần Short</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="phukien.html">Phụ kiện</a>
+                            </li>
+                            <li>
+                                <a href="combo.html">Combo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">GIỚI THIỆU</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/BeKien8Tuoi"><img src="Image/logo.png" alt="lỗi" class="logo">
+                            K-SHOP</a>
+                    </li>
+                    <li>
+                        <a href="lienhe.html">LIÊN HỆ</a>
+                    </li>
+                    <li>
+                        <a href="dangnhap.html"> ĐĂNG NHẬP</a>
+                    </li>
+                    <li>
+                        <a href="dangky.html"> ĐĂNG KÝ</a>
+                    </li>
+                    <li>
+                        <input type="search" placeholder="   Tìm kiếm... ?" value="" class="timkiem">
+                    </li>
+                    <li>
+                        <a href="giohang.html"><span class="fa fa-shopping-cart giohang1"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- thanh toán -->
+    <section>
+        <div class="thanhtoan">
+            <hr>
+            <div class="container">
+
+                <div class="row">
+                    <div class=" col-6 col-s-12 formthanhtoan">
+                        <h4>
+                            <b>
+                                K-SHOP
+                            </b>
+                        </h4>
+                        <p>
+                            Thông tin giao hàng
+                        </p>
+                        <p>
+                            Bạn đã có tài khoản...? <a href="dangnhap.html" title="Đăng nhập">Đăng nhập</a>
+                        </p>
+                        <input type="text" placeholder="Họ và tên" id="username">
+                        <input type="email" placeholder="Email của bạn" id="email">
+                        <input type="tel" placeholder="Số điên thoại" id="sdt">
+                        <input type="text" placeholder="Địa chỉ" id="diachi">
+                        <div class="luachon">
+                            <select>
+                                <option> Tỉnh</option>
+                                <option> Hưng Yên</option>
+                                <option> Hà Nội</option>
+                                <option> Hải Phòng</option>
+                                <option> Hồ Chí Minh</option>
+                            </select>
+                            <select>
+                                <option> Huyện</option>
+                                <option> Ân Thi</option>
+                                <option> Khoái Châu</option>
+                                <option> Phù Cừ</option>
+                                <option> Kim Động</option>
+                            </select>
+                            <select>
+                                <option> Xã</option>
+                                <option> Bãi Sậy</option>
+                                <option> Phù Ủng</option>
+                                <option> Đào Dương</option>
+                                <option> Quang Vinh</option>
+                            </select>
+                        </div>
+                        <div class="cachthucthanhtoan">
+                            <select>
+                                <option> Thanh toán khi nhận hàng</option>
+                                <option> Thanh toán qua thẻ tín dụng</option>
+                            </select>
+                        </div>
+                        <div class="quaylaigiohang">
+                            <a href="giohang.html"><i class="fa fa-arrow-left"></i> Quay lại giỏ hàng</a>
+                        </div>
+                        <button class="dathang" onclick="dathang()">Đặt hàng</button>
+                    </div>
+                    <div class="col-6 col-s-10">
+                        <h2>
+                            Liên hệ chúng tôi
+                        </h2>
+                        <hr>
+                        <p>
+                            K-SHOP được thành lập vào năm 2016, với mục tiêu trở thành chuỗi hệ thống bán lẻ chuyên
+                            nghiệp
+                            và tốt nhất.
+                        </p>
+                        <p>
+                            Địa chỉ: Bãi Sậy- Ân Thi- Hưng Yên
+                        </p>
+                        <p>
+                            Phục vụ khách hàng 24/7
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope-o"></i> <a
+                                href="mailto:kienad2001@gmail.com">kienad2001@gmail.com</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone-square"></i> <a href="tel:0347239763">0347239763</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-check-square-o"></i>Cam kết chỉ bán hàng chính hãng, uy tín hàng đầu...
+                        </p>
+                        <marquee behavior="scroll" direction="left" scrollamount="15" class="thank">
+                            Cảm ơn bạn đã tin tưởng K-SHOP
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- footer -->
+    <section>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-s-8">
+                        <h4>Giới thiệu</h4>
+                        <p>Địa chỉ: Bãi Sậy- Ân Thi- Hưng Yên</p>
+                        <p>Phục vụ khách hàng 24/7</p>
+                        <p>
+                            <i class="fa fa-envelope-o"></i> <a
+                                href="mailto:kienad2001@gmail.com">kienad2001@gmail.com</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone-square"></i> <a href="tel:0347239763">0347239763</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-check-square-o"></i>Cam kết chỉ bán hàng chính hãng, uy tín hàng đầu...
+                        </p>
+                    </div>
+                    <div class="col-4 col-s-8">
+                        <h4>Thông tin K-SHOP</h4>
+                        <p><a href="gioithieu.html">Giới thiệu</a></p>
+                        <p><a href="#">Điều khoản sử dụng</a></p>
+                        <p><a href="#">Chính sách bảo mật</a></p>
+                        <p><a href="lienhe.html">Thông tin liên hệ</a></p>
+                    </div>
+                    <div class="col-4 col-s-8">
+                        <h4>Theo dõi chúng tôi tại</h4>
+                        <a href="https://www.facebook.com/BeKien8Tuoi" class="social-icon" target="_blank"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/BeKien8Tuoi" class="social-icon" target="_blank"><i
+                                class="fa fa-twitter"></i></a>
+                        <a href="mailto:kienad2001@gmail.com" class="social-icon" target="_blank"><i
+                                class="fa fa-google"></i></a>
+                        <a href="https://www.youtube.com/channel/UCXs1TK0Kpw_SgfDC7_1SP3g?view_as=subscriber"
+                            class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/ltkien_20901/" class="social-icon" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
+                        <p style="margin-top: 15px;">
+                            <a href="https://www.facebook.com/BeKien8Tuoi" class="lhtk" target="_blank">Liên hệ thiết
+                                kế</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Copyright © 2021 K-SHOP. Design by <a href="https://www.facebook.com/BeKien8Tuoi"> <b>Kiên</b> </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

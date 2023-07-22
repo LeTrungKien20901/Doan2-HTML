@@ -1,0 +1,65 @@
+/* footer */
+#footer{
+    background-color: rgba(59, 59, 59, 0.979);
+    width: 100%;
+    height: max-content;
+    color: white;
+    font-size: 14px;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer .footer-copyright{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.lhtk{
+    padding: 10px;
+    background-color: green;
+}
+#footer h4{
+    text-transform: uppercase;
+}
+/* chỉnh icon *//* .social-icon là biểu tượng xã hội */
+.social-icon i {
+    font-size: 24px;
+    border: 1px solid #ccc;
+    width: 42px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: white;
+} 
+
+.social-icon i:hover {
+    opacity: 0.7;
+}
+
+.social-icon .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.social-icon .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.social-icon .fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.social-icon .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.social-icon .fa-instagram {
+    background: #ea4c89;
+    color: white;
+}

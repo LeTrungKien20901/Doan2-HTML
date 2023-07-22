@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    margin-top: 250px;
+}
+.dangkytaikhoan{
+    margin-top: 50px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.header {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    background-color:red;
+    color: white;
+    padding: 1em;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.cham{
+    text-align: center;
+}
+table{
+    height: 350px;
+    font-size: 17px;
+    
+}
+td:first-child{
+    width: 25%;
+    text-align: right;
+}
+td:nth-child(2){
+  width: 75%;
+}
+
+td a{
+    text-decoration: none;
+    color:black;
+}
+input{
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+}
+.gt{
+    display: flex;
+    justify-content: left;
+}
+.dangky,.dangnhap{
+    text-align: left;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+.dangky{
+    background-color: red;
+}
+.dangnhap{
+    background-color: green;
+}
+.dangky:hover, .dangnhap:hover{
+    opacity: 1;
+}
+#rdonam,#rdonu{
+    margin-top: 7px;
+}

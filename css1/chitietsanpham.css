@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.chitietsanpham{
+    margin-top: 250px;
+    padding-bottom: 20px;
+}
+/* danh mục */
+.danhmuc{
+    font-size: 17px;
+}
+.danhmuc a{
+    text-decoration: none;
+    color: black;
+}
+.danhmuc h5{
+    border-bottom: 2px solid rgb(94, 159, 243);
+}
+/* ảnh */
+.image{
+    padding-bottom: 20px;
+}
+
+.image img{
+    width: 100%;
+    height: 400px;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+.image img:hover{
+    transition: all 0.1s;
+    transform: scale(1.01);
+
+}
+/* chi tiết */
+.tien,.mota{
+    border-bottom: 1px dotted gray;
+    padding: 10px;
+}
+.tien{
+    color: red;
+}
+.kichco{
+    padding-top: 15px;
+}
+.kichco select,.kichco input{
+    width: 80px;
+    height: 30px;
+}
+.giohang{
+    background-color: green;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+    width: 200px;
+}
+.giohang:hover{
+    opacity: 1;
+}
+/* sản phẩm liên quan */
+.sanphamlienquan{
+    padding: 10px;
+}
+.sanphamlienquan h6{
+    border-bottom: 2px solid rgb(94, 159, 243);
+}
+.chitiet{
+    padding: 10px;
+}
+.chitiet1{
+    border: 1px solid;
+    padding-bottom: 10px;
+    overflow: hidden;
+     /* overflow: hidden; là nếu quá giới hạn sẽ bị ẩn đi */
+}
+.chitiet img{
+    width: 100%;
+    height: 400px;
+
+}
+.chitiet img:hover{
+    transition: all 0.4s;
+    transform: scale(1.05);
+
+}
+.noidungsp{
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid;
+}
+.chitiet1 a{
+    text-decoration: none;
+    color: black;
+}
